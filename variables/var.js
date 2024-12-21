@@ -1,5 +1,5 @@
 const customerId = 22345
-let customerName = "Akarshit"
+let customerName = "Akarshit"  // we now  use let variables instead of var 
 var city = "hydrabad"
 
 // console.log(customerId)
