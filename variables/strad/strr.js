@@ -19,3 +19,8 @@ console.log(s+s+ss)  // --> 20hi
 let tt = 10
 let yy = "hello"
 console.log(yy+tt+tt)  //-->hello1010
+
+
+let uu = "hIi"
+let oo = "hii"
+console.log(uu==oo)
