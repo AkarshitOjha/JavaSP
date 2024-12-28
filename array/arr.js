@@ -59,7 +59,33 @@ const a2 = ["thor", "hulk"]
 
 
 const a3 = a1.concat(a2)   // new arry par abana kar kaam krega  ye ache se add krega poora 
-console.log(a3);
+// console.log(a3); 
+
+// ==================================================================================================================================================
+
+// spread operator used--->
+
+let myar2 = [2,4,6,8]
+let myar3 = ["ragnork","hulk","flash","wonder women"]
+ let myar4 =[...myar2,...myar3]
+//  console.log(myar4);
+
+//  =============================================================================================================================================
+
+// or sometime aisa case hota hai ki example ----  [1,2,3,4,[6,7,8,[4,5,6]]] to ise kaise thik krdega ache se 
+// so we use flat operator
+
+const myArr4 = [2,3,4,[5,6,7,8,[1,9,"hello"]]]
+let q = myArr4.flat(Infinity)
+// console.log(q)
+// ===================================================================================================
+
+// ek or important point array ke baare me 
+
+console.log(Array.isArray("akarshit"))  // output is false qki ye array ni hai agar convert krna hota array me to
+
+console.log(Array.from("akarshit"));  // array ke form me convert hogyaa 
 
 
+ 
 
