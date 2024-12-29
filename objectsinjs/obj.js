@@ -43,7 +43,7 @@ console.log(obj1.greeting())
 
 obj1.greeting2 = function(){
     console.log(`hello js user ${this.name}`);   //string manupulation method
-    console.log(`hello write yoyr mail here ${this.email}`)
+    console.log(`hello write your mail here ${this.email}`)
     
 }
 console.log(obj1.greeting2());
