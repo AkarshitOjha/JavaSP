@@ -22,6 +22,22 @@ function isloggedin (usernme){
 
 //   console.log( isloggedin2());
 
+// =======================================================================================================
+
+// some more point to be noted in functions ... related to hum add to cart par kaam kaise krte hai 
+
+function addtocart (...cart){
+    return cart
+}
+
+let cart=(addtocart(500 ,1000,455,678,900));   // iska ye mtlb tha kii hamre cart me user kitni value lega to ni pata isliye hum (...cart)->rest operator use krenge
+console.log("Your cart ",cart);
+
+
+// object function me kaise paas hoga  ===============================================================================================
+
+// create object 
+const 
 
 
 
