@@ -43,7 +43,7 @@ const obt2 = {4:"HELLO1",5:"AKARSHIT1",6:"OJHA1"}
 
 //  third way or bhi jada easy hai kii...........
 
-let obt3 = {...obt1, ...obt2}  // use spread opeartor to add
+let obt3 = {...obt1, ...obt2}  // use spread opeartor to add          
 console.log(obt3);
 
 
