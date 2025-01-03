@@ -16,4 +16,4 @@ console.log(typeof(z/2))  // give-> Number
 
 let a = 235
 let b = "akarshit"
-console.log(a*b) // giva --> NaN
+console.log(a*b) // giva --> NaN 
